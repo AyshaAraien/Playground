@@ -70,6 +70,7 @@ class RandomWordsState extends State<RandomWords>{
 
           return Scaffold(
             appBar: AppBar(
+              centerTitle: true,
               title: Text("Saved WordPairs")
             ),
             body: ListView(children: divided)
